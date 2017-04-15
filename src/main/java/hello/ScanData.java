@@ -2,20 +2,20 @@ package hello;
 
 public class ScanData {
 
-		public String Network;
-		public String SSID;
-		public String BSSID;
-		public String Frequency;
-		public String Intensity;
-		public String Capabilities;
+		public String network;
+		public String ssid;
+		public String bssid;
+		public String frequency;
+		public String intensity;
+		public String capabilities;
 		
 		public ScanData(String Network, String SSID, String BSSID, String Frequency, String Intensity, String Capabilities) {
-			this.Network = Network;
-			this.SSID = SSID;
-			this.BSSID = BSSID;
-			this.Frequency = Frequency;
-			this.Intensity = Intensity;
-			this.Capabilities = Capabilities;
+			this.network = Network;
+			this.ssid = SSID;
+			this.bssid = BSSID;
+			this.frequency = Frequency;
+			this.intensity = Intensity;
+			this.capabilities = Capabilities;
 		}
 		
 		public ScanData() {
@@ -23,51 +23,51 @@ public class ScanData {
 		}
 
 		public void setNetwork(String Network) {
-			this.Network = Network;
+			this.network = Network;
 		}
 		
 		public void setSSID(String SSID) {
-			this.SSID = SSID;
+			this.ssid = SSID;
 		}
 		
 		public void setBSSID(String BSSID) {
-			this.BSSID = BSSID;
+			this.bssid = BSSID;
 		}
 		
 		public void setFrequency(String Frequency) {
-			this.Frequency = Frequency;
+			this.frequency = Frequency;
 		}
 		
 		public void setIntensity(String Intensity) {
-			this.Intensity = Intensity;
+			this.intensity = Intensity;
 		}
 		
 		public void setCapabilities(String Capabilities) {
-			this.Capabilities = Capabilities;
+			this.capabilities = Capabilities;
 		}
 		
 		public String getNetwork() {
-			return Network;
+			return network;
 		}
 
 		public String getSSID() {
-			return SSID;
+			return ssid;
 		}
 
 		public String getBSSID() {
-			return BSSID;
+			return bssid;
 		}
 
 		public String getFrequency() {
-			return Frequency;
+			return frequency;
 		}
 
 		public String getIntensity() {
-			return Intensity;
+			return intensity;
 		}
 
 		public String getCapabilities() {
-			return Capabilities;
+			return capabilities;
 		}
 }
 
